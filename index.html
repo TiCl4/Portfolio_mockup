@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <title>Mockup Project</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+      <div class="container"> 
+        <header class="header">
+            <div class="row">
+            <section class="col-6 header-left">
+                <img class="udacity-logo" src="images/udacity.png" alt="Udacity logo">
+            </section>
+            <section class="col-6 header-right">
+              <div class="identification text-right text-uppercase">
+                <h1 class="persons-name">Jane Doette</h1>
+                <h4 class="persons-title">Front-end Ninja</h4>
+              </div>
+            </section>
+            </div>
+        </header>
+        
+        <div class="row">  
+        <section class="main">      
+            <div class="col-12">
+                <img class="img-responsive" src="images/middle.png" alt="meta tags">
+            </div>   
+        </section>
+        </div>
+          
+        <div class="row">
+            <div class="col-12">
+                <section class="container-featured-work">Featured Work</section>
+            </div>
+        </div>
+          
+<!-- Work Showcasing Area-->
+        <div class="work-area">  
+            <div class="list appify-area">
+                <img class="img-responsive center-block" src="images/appify.jpg" alt="appify" data-toggle="modal" data-target="#appify">
+                <div class="appify-description text-center">
+                    <p class="appify-name text-uppercase">appify</p>
+                    <p class="appify-link"> <a href="https://github.com/udacity/Appify/" target="_blank">https://github.com/udacity/Appify/</a></p>
+                </div>
+            </div>
+            <div class="list sunflower-area">
+                <img class="img-responsive center-block" src="images/sunflower.jpg" alt="sun flower" data-toggle="modal" data-target="#sunflower">
+                <div class="sunflower-description text-center">
+                    <p class="sunflower-name text-uppercase">sunflower</p>
+                    <p class="sunflower-link"><a href="https://github.com/udacity/Sunflower/" target="_blank">https://github.com/udacity/Sunflower/</a></p>
+                </div>
+            </div>
+            <div class="list bokeh-area">
+                <img class="img-responsive center-block" src="images/bokeh.jpg" alt="bokeh" data-toggle="modal" data-target="#bokeh">
+                <div class="bokeh-description text-center">
+                    <p class="bokeh-name text-uppercase">bokeh</p>
+                    <p class="bokeh-link"><a href="https://github.com/udacity/Bokeh/" target="_blank">https://github.com/udacity/Bokeh/</a></p>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+    
+<!-- Modal -->
+    <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/appify.png" alt="Appify image">
+                    This was one of my projects in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Second Farovite App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/sunflower.png" alt="Sunflower image">
+                    This was one of my projects in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Third Favorite App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/bokeh.png" alt="Bokeh image">
+                    This was one of my projects in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
